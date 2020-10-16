@@ -3,10 +3,8 @@ LABEL maintainer="Dave Conroy (dave at tiredofit dot ca)"
 
 ### Set Environment Variables
 ENV ENABLE_CRON=FALSE \
-    ENABLE_SMTP=FALSE \
-    ENABLE_ZABBIX=FALSE \
-    ZABBIX_HOSTNAME=db-backup
-
+    ENABLE_SMTP=FALSE 
+    
 ### Dependencies
 RUN set -ex && \
     echo "@testing http://nl.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories && \
