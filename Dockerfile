@@ -1,4 +1,4 @@
-FROM tiredofit/alpine:edge
+FROM brouzuf/alpine:edge
 LABEL maintainer="Dave Conroy (dave at tiredofit dot ca)"
 
 ### Set Environment Variables
